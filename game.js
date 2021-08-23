@@ -107,7 +107,7 @@ choices.forEach(choice => {
         {
             window.alert("Answer: " + currentQuestion.answer);
         }
-        }, 800);
+        }, 750);
         
 
         setTimeout( () =>{
