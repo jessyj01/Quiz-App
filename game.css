@@ -1,0 +1,86 @@
+.choice-container{
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid rgba(10, 8, 117, 0.822);
+    background-color: white;
+}
+
+.choice-container:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.938);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+}
+.choice-prefix{
+    padding: 1.9rem 2.5rem;
+    background-color: #175d9b;
+    color: white;
+}
+
+.choice-text{
+    padding: 1.8rem;
+    width: 100%;
+    color: rgb(115, 124, 207);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 2.5rem;
+}
+
+.rightanswers{
+    background-color: #b1eca5;
+}
+
+.correct{
+    background-color: #80ee6a;
+}
+
+.incorrect{
+    background-color: #eb2e2e;
+}
+
+#hud{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hud-prefix{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.hud-main-text{
+    text-align: center;
+}
+
+#progressBar{
+    width: 20rem;
+    height: 4rem;
+    border: 0.4rem solid #ffffff;;
+    margin-top: 1.5rem;
+    margin-bottom: 2.8rem;
+}
+
+#progressbarfull{
+height: 3.4rem;
+background-color: #ffffff;
+width:0%;
+}
+
+#loader{
+    border: 1.2rem solid rgb(178, 187, 209);
+    border-radius: 50%;
+    border-top:1.2rem solid #352a9e;
+    width:12rem;
+    height:12rem;
+    animation: spin 2s linear infinite
+}
+
+@keyframes spin {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
